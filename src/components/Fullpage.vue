@@ -34,19 +34,17 @@ export default {
         navigation: true,
         navigationTooltips: ["Memory", "I dont know", "Love", ". . . "],
         showActiveTooltip: true,
-        controArrows: false,
+        // controArrows: false,
         slidesNavigation: true,
         scrollingSpeed: 1000,
         loopBottom: true,
-        loopTop: true,
-        controlArrows: true,
+        // controlArrows: true,
         parallax: true,
         parallaxOptions: {
           type: "cover",
           percentage: 100,
           property: "translate"
-        },
-        dragAndMove: "fingersonly"
+        }
       }
     };
   }
