@@ -7,7 +7,7 @@
 				</li>
 			</ul>
 		</div>-->
-    <Fullpage :slideNames="slideNames" />
+    <Fullpage />
   </v-app>
 </template>
 
@@ -28,34 +28,34 @@ export default {
 </script>
 
 <style lang="scss">
-.menu {
-  width: 100%;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1em;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent;
-  padding: 1em;
-  z-index: 10;
-  color: white;
-  ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+// .menu {
+// 	width: 100%;
+// 	font-family: "Courier New", Courier, monospace;
+// 	font-size: 1em;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// 	background-color: transparent;
+// 	padding: 1em;
+// 	z-index: 10;
+// 	color: white;
+// 	ul {
+// 		list-style: none;
+// 		display: flex;
+// 		justify-content: space-around;
 
-    li {
-      background-color: white;
-      box-shadow: 0 0 2px 5px;
-      border-radius: 15px;
-      padding: 5px;
-      a {
-        color: black;
+// 		li {
+// 			background-color: white;
+// 			box-shadow: 0 0 2px 5px;
+// 			border-radius: 15px;
+// 			padding: 5px;
+// 			a {
+// 				color: black;
 
-        text-decoration: none;
-      }
-    }
-  }
-}
+// 				text-decoration: none;
+// 			}
+// 		}
+// 	}
+// }
 </style>

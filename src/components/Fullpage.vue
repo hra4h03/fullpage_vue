@@ -27,18 +27,12 @@
 
 <script>
 export default {
-  props: {
-    slideNames: {
-      type: Array,
-      required: true
-    }
-  },
   data() {
     return {
       options: {
         autoscrolling: true,
         navigation: true,
-        navigationTooltips: this.slideNames,
+        navigationTooltips: ["Memory", "I dont know", "Love", ". . . "],
         showActiveTooltip: true,
         controArrows: false,
         slidesNavigation: true,
