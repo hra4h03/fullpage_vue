@@ -1,30 +1,30 @@
 <template>
 	<div class="hello">
 		<full-page ref="fullpage" :options="options" id="fullpage">
-			<div class="section">
+			<div class="section Friends Congratulations">
 				<div class="slide s s1">
-					<h1>1 slide</h1>
+					<h1>Best wishes for your special day!</h1>
 				</div>
 				<div class="slide s s2">
-					<h1>2 slide</h1>
+					<h1>Live, Laugh and Enjoy!</h1>
 				</div>
 				<div class="slide s s3">
-					<h1>3 slide</h1>
+					<h1>Happy women's day to you!</h1>
 				</div>
 			</div>
-			<div class="section s s2">
+			<div class="section Friends Achievements">
 				<div class="slide s s1">
-					<h1>1 slide</h1>
+					<h1>Wishing all your dreams come true</h1>
 				</div>
 				<div class="slide s s2">
-					<h1>2 slide</h1>
+					<h1>The fruit of your labour is sweet and you deserve it</h1>
 				</div>
 				<div class="slide s s3">
-					<h1>3 slide</h1>
+					<h1>You are a shining star. Well done!</h1>
 				</div>
 			</div>
 
-			<div class="section s3">
+			<div class="section Friends">
 				<div class="slide s s1">
 					<h1>1 slide</h1>
 				</div>
@@ -35,7 +35,7 @@
 					<h1>3 slide</h1>
 				</div>
 			</div>
-			<div class="section s4">
+			<div class="section Memories">
 				<h1>the 4 slide</h1>
 			</div>
 		</full-page>
@@ -50,10 +50,10 @@ export default {
 				autoscrolling: true,
 				navigation: true,
 				navigationTooltips: [
-					"С ПРАЗДНИКАМ😊".toLocaleUpperCase(),
-					"друзья💪".toLocaleUpperCase(),
-					"воспоминания🌞".toLocaleUpperCase(),
-					"😔"
+					"Congratulations😊".toLocaleUpperCase(),
+					"Achievements 📰".toLocaleUpperCase(),
+					"Friends💪".toLocaleUpperCase(),
+					"Memories🌞".toLocaleUpperCase()
 				],
 				showActiveTooltip: true,
 				slidesNavigation: true,
@@ -73,53 +73,64 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
-h1 {
-	position: absolute;
-	left: 1em;
-	bottom: 2em;
-	color: #fff;
-	font-family: "Courier New", Courier, monospace;
-	text-transform: uppercase;
-}
-span {
-	background: #fff !important;
-	font-family: "Courier New", Courier, monospace;
-}
-
 body {
 	text-align: center;
+	.s {
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+	}
+
+	h1,
+	p {
+		position: absolute;
+		left: 1em;
+		right: 1em;
+		bottom: 4em;
+		color: #fff;
+		font-family: "Courier New", Courier, monospace;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+
+	span {
+		background: #fff !important;
+		font-family: "Courier New", Courier, monospace;
+	}
 }
 .s {
-	position: relative;
+	object-fit: contain;
 }
 
-.s1 {
-	background-color: #ee4455;
-	background-image: url(https://images.unsplash.com/photo-1477573829233-74cd1c17fa65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-	background-size: cover;
-	background-repeat: no-repeat;
+.Friends {
+	.s1 {
+		background-color: #ee4455;
+		background-image: url(../assets/friends_1.jpg);
+		background-position: center center;
+	}
+	.s2 {
+		background-color: #121212;
+		background-image: url(../assets/friends_2.jpg);
+		background-position: center center;
+	}
+	.s3 {
+		background-color: #ee4455;
+		background-image: url(../assets/friends_3.jpg);
+		background-position: top center;
+	}
 }
-
-.s2 {
-	background-color: #121212;
-	background-image: url(https://images.unsplash.com/photo-1485367255444-d62afe0567ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-	background-size: cover;
-	background-repeat: no-repeat;
+.Achievements {
+	.s1 {
+		background-color: #ee4455;
+		background-image: url(../assets/achievement_1.jpg);
+		background-position: center center;
+	}
+	.s2 {
+		background-color: #121212;
+		background-image: url(../assets/achievement_2.jpg);
+		background-position: center center;
+	}
 }
-.s3 {
-	background-color: #ee4455;
-	background-image: url(https://images.unsplash.com/photo-1553301080-eddd10a5b07b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-.s4 {
-	background-color: #121212;
-	background-image: url(https://images.unsplash.com/photo-1485367255444-d62afe0567ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
 .fp-prev {
 	width: 10px;
 }
