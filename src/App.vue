@@ -1,33 +1,45 @@
 <template>
-  <v-app>
-    <!-- <div class="menu">
+	<div>
+		<!-- <div class="menu">
 			<ul>
 				<li v-for="slideName in slideNames" :key="slideName">
 					<a href="#">{{ slideName }}</a>
 				</li>
 			</ul>
 		</div>-->
-    <Fullpage />
-  </v-app>
+		<Fullpage />
+	</div>
 </template>
 
 <script>
+// import videojs from "video.js";
 import Fullpage from "./components/Fullpage";
 
 export default {
-  name: "App",
-  data() {
-    return {
-      slideNames: ["Memory", "I dont know", "Love", ". . . "]
-    };
-  },
-  components: {
-    Fullpage
-  }
+	name: "App",
+	data() {
+		return {
+			slideNames: ["Memory", "I dont know", "Love", ". . . "]
+		};
+	},
+	components: {
+		Fullpage
+	}
 };
 </script>
 
 <style lang="scss">
+.video {
+	margin-bottom: 30vh;
+	width: 100vw;
+	height: 100vh;
+}
+h1 {
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	// right: 20px;
+}
 // .menu {
 // 	width: 100%;
 // 	font-family: "Courier New", Courier, monospace;
