@@ -116,12 +116,12 @@ body {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background-size: 100% 100%;
+	background-size: center 100%;
 	background-color: black; /* in case the video doesn't fit the whole page*/
-	// background-image: /* our video */ ;
+	background-image: url(https://res.cloudinary.com/http-cau-am/video/upload/v1585481196/fullpage_vue/Hardest_Game_-_Mozilla_Firefox_2019-07-28_22-58-37-1_jqhbgo.webm);
 	background-position: center center;
 	background-size: contain;
-	object-fit: cover; /*cover video background */
+	object-fit: contain; /*cover video background */
 	z-index: 3;
 }
 
