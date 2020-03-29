@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="section s2">
-				<video id="myVideo" loop muted data-autoplay>
+				<video id="myVideo" playsinline loop muted data-autoplay>
 					<source
 						src="https://res.cloudinary.com/http-cau-am/video/upload/v1585481196/fullpage_vue/Hardest_Game_-_Mozilla_Firefox_2019-07-28_22-58-37-1_jqhbgo.mp4"
 						type="video/mp4"
@@ -22,7 +22,7 @@
 						src="https://res.cloudinary.com/http-cau-am/video/upload/v1585481196/fullpage_vue/Hardest_Game_-_Mozilla_Firefox_2019-07-28_22-58-37-1_jqhbgo.webm"
 						type="video/webm"
 					/>
-					<!-- <video id="myVideo" loop muted data-autoplay>
+					<!-- <video id="myVideo"  loop muted data-autoplay>
 						<source
 							src="https://res.cloudinary.com/dlz80e3v7/video/upload/v1582903321/flowers_kgvvqw.mp4"
 							type="video/mp4"
