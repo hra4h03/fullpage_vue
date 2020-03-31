@@ -26,16 +26,16 @@
 
 			<div class="section Friends">
 				<div class="slide s s1">
-					<!-- <h1>1 slide</h1> -->
+					<h1>Sisters are different flowers from the same garden</h1>
 				</div>
 				<div class="slide s s2">
-					<!-- <h1>2 slide</h1> -->
+					<h1>A sister is a little bit of childhood that can never be lost.</h1>
 				</div>
 				<div class="slide s s3">
-					<!-- <h1>3 slide</h1> -->
+					<h1>If you make friends with yourself you will never be alone</h1>
 				</div>
 				<div class="slide s s4">
-					<!-- <h1>4 slide</h1> -->
+					<h1>A single rose can be your garden… a single friend, your world.</h1>
 				</div>
 			</div>
 			<div class="section Memories">
