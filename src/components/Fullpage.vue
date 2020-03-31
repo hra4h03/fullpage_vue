@@ -26,16 +26,16 @@
 
 			<div class="section Friends">
 				<div class="slide s s1">
-					<h1>1 slide</h1>
+					<!-- <h1>1 slide</h1> -->
 				</div>
 				<div class="slide s s2">
-					<h1>2 slide</h1>
+					<!-- <h1>2 slide</h1> -->
 				</div>
 				<div class="slide s s3">
-					<h1>3 slide</h1>
+					<!-- <h1>3 slide</h1> -->
 				</div>
 				<div class="slide s s4">
-					<h1>4 slide</h1>
+					<!-- <h1>4 slide</h1> -->
 				</div>
 			</div>
 			<div class="section Memories">
