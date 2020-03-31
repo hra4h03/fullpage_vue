@@ -82,7 +82,7 @@ export default {
 body {
 	text-align: center;
 	.s {
-		background-size: cover;
+		background-size: contain;
 		background-repeat: no-repeat;
 		position: relative;
 	}
@@ -110,39 +110,39 @@ body {
 
 .Friends {
 	.s1 {
-		background-color: #ee4455;
+		background-color: #e5e5e5;
 		background-image: url(../assets/friends_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #121212;
+		background-color: #e5e5e5;
 		background-image: url(../assets/friends_2.jpg);
 		background-position: center center;
 	}
 	.s3 {
-		background-color: #ee4455;
+		background-color: #e5e5e5;
 		background-image: url(../assets/friends_3.jpg);
-		background-position: top center;
+		background-position: center center;
 	}
 	.s4 {
-		background-color: #ee4455;
+		background-color: #e5e5e5;
 		background-image: url(../assets/friends_4.jpg);
-		background-position: top center;
+		background-position: center center;
 	}
 }
 .Achievements {
 	.s1 {
-		background-color: #ee4455;
+		background-color: #e5e5e5;
 		background-image: url(../assets/achievement_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #121212;
+		background-color: #e5e5e5;
 		background-image: url(../assets/achievement_2.jpg);
 		background-position: center center;
 	}
 	.s3 {
-		background-color: #121212;
+		background-color: #e5e5e5;
 		background-image: url(../assets/achievement_3.jpg);
 		background-position: center center;
 	}
@@ -150,17 +150,17 @@ body {
 
 .Congratulations {
 	.s1 {
-		background-color: #ee4455;
+		background-color: #e5e5e5;
 		background-image: url(../assets/congratulation_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #121212;
+		background-color: #e5e5e5;
 		background-image: url(../assets/congratulation_2.jpg);
 		background-position: center center;
 	}
 	.s3 {
-		background-color: #121212;
+		background-color: #e5e5e5;
 		background-image: url(../assets/congratulation_3.jpg);
 		background-position: center center;
 	}
@@ -168,14 +168,14 @@ body {
 
 .Memories {
 	.s1 {
-		background-color: #ee4455;
+		background-color: #e5e5e5;
 		background-image: url(../assets/memories_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #121212;
+		background-color: #e5e5e5;
 		background-image: url(../assets/memories_2.jpg);
-		background-position: center center;
+		background-position: bottom center;
 	}
 }
 
