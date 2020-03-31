@@ -1,7 +1,7 @@
 <template>
 	<div class="hello">
 		<full-page ref="fullpage" :options="options" id="fullpage">
-			<div class="section Friends Congratulations">
+			<div class="section Congratulations">
 				<div class="slide s s1">
 					<h1>Best wishes for your special day!</h1>
 				</div>
@@ -12,7 +12,7 @@
 					<h1>Happy women's day to you!</h1>
 				</div>
 			</div>
-			<div class="section Friends Achievements">
+			<div class="section Achievements">
 				<div class="slide s s1">
 					<h1>Wishing all your dreams come true</h1>
 				</div>
@@ -34,9 +34,15 @@
 				<div class="slide s s3">
 					<h1>3 slide</h1>
 				</div>
+				<div class="slide s s4">
+					<h1>4 slide</h1>
+				</div>
 			</div>
 			<div class="section Memories">
-				<h1>the 4 slide</h1>
+				<div class="slide s s1"></div>
+				<div class="slide s s2">
+					<h1>The end</h1>
+				</div>
 			</div>
 		</full-page>
 	</div>
@@ -50,10 +56,10 @@ export default {
 				autoscrolling: true,
 				navigation: true,
 				navigationTooltips: [
-					"Congratulations😊".toLocaleUpperCase(),
-					"Achievements 📰".toLocaleUpperCase(),
-					"Friends💪".toLocaleUpperCase(),
-					"Memories🌞".toLocaleUpperCase()
+					"Congratulations😊",
+					"Achievements 📰",
+					"Friends💪",
+					"Memories🌞"
 				],
 				showActiveTooltip: true,
 				slidesNavigation: true,
@@ -118,6 +124,11 @@ body {
 		background-image: url(../assets/friends_3.jpg);
 		background-position: top center;
 	}
+	.s4 {
+		background-color: #ee4455;
+		background-image: url(../assets/friends_4.jpg);
+		background-position: top center;
+	}
 }
 .Achievements {
 	.s1 {
@@ -130,7 +141,44 @@ body {
 		background-image: url(../assets/achievement_2.jpg);
 		background-position: center center;
 	}
+	.s3 {
+		background-color: #121212;
+		background-image: url(../assets/achievement_3.jpg);
+		background-position: center center;
+	}
 }
+
+.Congratulations {
+	.s1 {
+		background-color: #ee4455;
+		background-image: url(../assets/congratulation_1.jpg);
+		background-position: center center;
+	}
+	.s2 {
+		background-color: #121212;
+		background-image: url(../assets/congratulation_2.jpg);
+		background-position: center center;
+	}
+	.s3 {
+		background-color: #121212;
+		background-image: url(../assets/congratulation_3.jpg);
+		background-position: center center;
+	}
+}
+
+.Memories {
+	.s1 {
+		background-color: #ee4455;
+		background-image: url(../assets/memories_1.jpg);
+		background-position: center center;
+	}
+	.s2 {
+		background-color: #121212;
+		background-image: url(../assets/memories_2.jpg);
+		background-position: center center;
+	}
+}
+
 .fp-prev {
 	width: 10px;
 }
