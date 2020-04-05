@@ -80,6 +80,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 body {
+	background-color: #37474f;
 	text-align: center;
 	.s {
 		background-size: contain;
@@ -110,39 +111,32 @@ body {
 
 .Friends {
 	.s1 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/friends_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/friends_2.jpg);
 		background-position: center center;
 	}
 	.s3 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/friends_3.jpg);
 		background-position: center center;
 	}
 	.s4 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/friends_4.jpg);
 		background-position: center center;
 	}
 }
 .Achievements {
 	.s1 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/achievement_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/achievement_2.jpg);
 		background-position: center center;
 	}
 	.s3 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/achievement_3.jpg);
 		background-position: center center;
 	}
@@ -150,17 +144,14 @@ body {
 
 .Congratulations {
 	.s1 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/congratulation_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/congratulation_2.jpg);
 		background-position: center center;
 	}
 	.s3 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/congratulation_3.jpg);
 		background-position: center center;
 	}
@@ -168,12 +159,10 @@ body {
 
 .Memories {
 	.s1 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/memories_1.jpg);
 		background-position: center center;
 	}
 	.s2 {
-		background-color: #e5e5e5;
 		background-image: url(../assets/memories_2.jpg);
 		background-position: bottom center;
 	}
