@@ -37,10 +37,12 @@
 				<div class="slide s s4">
 					<h1>A single rose can be your garden… a single friend, your world.</h1>
 				</div>
+				<div class="slide s s5">
+					<h1>Friendship is always a sweet responsibility, never an opportunity.</h1>
+				</div>
 			</div>
 			<div class="section Memories">
-				<div class="slide s s1"></div>
-				<div class="slide s s2">
+				<div class="slide s s1">
 					<h1>The end</h1>
 				</div>
 			</div>
@@ -126,6 +128,10 @@ body {
 		background-image: url(../assets/friends_4.jpg);
 		background-position: center center;
 	}
+	.s5 {
+		background-image: url(../assets/memories_1.jpg);
+		background-position: center center;
+	}
 }
 .Achievements {
 	.s1 {
@@ -159,10 +165,6 @@ body {
 
 .Memories {
 	.s1 {
-		background-image: url(../assets/memories_1.jpg);
-		background-position: center center;
-	}
-	.s2 {
 		background-image: url(../assets/memories_2.jpg);
 		background-position: bottom center;
 	}
